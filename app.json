@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Expoiler",
-    "description": "An empty new project",
+    "description": "A really opionated Expo BoilerPlate",
     "slug": "Expoiler",
     "privacy": "public",
     "sdkVersion": "21.0.0",
