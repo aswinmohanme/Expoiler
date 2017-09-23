@@ -4,7 +4,7 @@ import { Text } from 'react-native';
 class TestComponentScreen extends Component {
     render() {
         return (
-            <Text>Testing...</Text>
+            <Text>Testing</Text>
         );
     }
 }
