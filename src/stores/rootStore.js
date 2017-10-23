@@ -8,11 +8,11 @@ import { observable } from 'mobx';
     * accessing data in other stores as simple as possible
 */
 class RootStore {
-    @observable testVar = "hey";
+    @observable testVar = "This string is loaded from the store at src/stores/rootStore.js";
 
     get testVar() {
         return this.testVar;
     }
 }
-
-export default RootStore;
+store = new RootStore();
+export default store;
