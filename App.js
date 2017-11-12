@@ -8,7 +8,7 @@ import RootStore from './src/stores/rootStore';
 export default class App extends React.Component {
   render() {
     return (
-      <Provider rootStore={ new RootStore()}>
+      <Provider rootStore={RootStore}>
         <AppNavigation />
       </Provider>
     );
